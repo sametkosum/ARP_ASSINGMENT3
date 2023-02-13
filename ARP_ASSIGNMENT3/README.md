@@ -79,6 +79,12 @@ Example for compiling **circle.c**: ```gcc src/circle.c -lbmp -lm -o bin/circle`
 ## Compiling and running **processA** and **processB**
 The two processes are implemented as UIs through *ncurses* library, therefore you need to compile their source files by linking the shared library via ```-lncurses```. As for the first assignment, exploit the resize event of the windows to get out of situations in which the graphical elements do not properly spawn.
 
+## Compiling and running the code
+
+```console
+$ ./run.sh
+```
+
 ## Executing **circle.c**
 This is a simple example of a program which uses the *libbitmap* library. It generates a 100x100 colored `.bmp` file with user-defined name, depicting a blue circle of given radius. When you execute it, pass the two arguments (file name and radius value) along. Execution example: ```./bin/circle out/test.bmp 20```.
 
