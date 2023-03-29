@@ -2,7 +2,6 @@
 
 Base repository for the **third assignment** of the **_Advanced and Robot Programming_** course - **_UNIGE_**.
 
-Mustafa Melih Toslak 
 Ahmet Samet Kosum      S5635830
 
 Project's repository: [assignment 3]()
